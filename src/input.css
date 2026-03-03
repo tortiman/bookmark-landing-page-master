@@ -1,0 +1,123 @@
+@import url('https://texts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+    --font-rubik: "Rubik", sans-serif;
+    --tracking-05: 0.3rem;
+
+    /* fuentes */
+    --text-cardtextMobile:1.25rem;
+    --text-cardtextMobile--line-height:1.2;
+    --text-cardtextMobile--letter-spacing:0.6;
+    --text-cardtextMobile--font-weight:500;
+    
+    --text-cardtextDesktop:1.25rem;
+    --text-cardtextDesktop--line-height:1.2;
+    --text-cardtextDesktop--letter-spacing:0.6;
+    --text-cardtextDesktop--font-weight:700;
+
+    --text-footertextMobile:0.9375rem;
+    --text-footertextMobile--line-height:1.2;
+    --text-footertextMobile--letter-spacing:2.2;
+    --text-footertextMobile--font-weight:400;
+
+    --text-footertextDesktop:0.8125rem;
+    --text-footertextDesktop--line-height:1.2;
+    --text-footertextDesktop--letter-spacing:2.2;
+    --text-footertextDesktop--font-weight:400;
+
+    --text-joinedtextMobile:0.875rem;
+    --text-joinedtextMobile--line-height:1.4;
+    --text-joinedtextMobile--letter-spacing:2.7;
+    --text-joinedtextMobile--font-weight:400;
+
+    --text-joinedtextDesktop:1.25rem;
+    --text-joinedtextDesktop--line-height:1.2;
+    --text-joinedtextDesktop--letter-spacing:1.6;
+    --text-joinedtextDesktop--font-weight:500;
+
+
+    --text-joinedTitleMobile:1.4375rem;
+    --text-joinedTitleMobile--line-height:1.2;
+    --text-joinedTitleMobile--letter-spacing:0.6;
+    --text-joinedTitleMobile--font-weight:500;
+
+    --text-joinedTitleDesktop:1.875rem;
+    --text-joinedTitleDesktop--line-height:1.2;
+    --text-joinedTitleDesktop--letter-spacing:0.6;
+    --text-joinedTitleDesktop--font-weight:500;
+
+    --text-linksMobile:1em;
+    --text-linksMobile--line-height:1.2;
+    --text-linksMobile--letter-spacing:0;
+    --text-linksMobile--font-weight:500;
+
+    --text-linksDesktop:1rem;
+    --text-linksDesktop--line-height:1.2;
+    --text-linksDesktop--letter-spacing:0;
+    --text-linksDesktop--font-weight:500;
+
+    --text-menuMobile:1.25rem;
+    --text-menuMobile--line-height:1.2;
+    --text-menuMobile--letter-spacing:0.6;
+    --text-menuMobile--font-weight:500;
+
+    --text-menuDesktop:0.815rem;
+    --text-menuDesktop--line-height:1.2;
+    --text-menuDesktop--letter-spacing:0.1rem;
+    --text-menuDesktop--font-weight:500;
+
+    --text-paragraphMobile:0.9375rem;
+    --text-paragraphMobile--line-height:1.4;
+    --text-paragraphMobile--letter-spacing:0;
+    --text-paragraphMobile--font-weight:400;
+
+    --text-paragraphDesktop:1.0625rem;
+    --text-paragraphDesktop--line-height:1.5;
+    --text-paragraphDesktop--letter-spacing:0;
+    --text-paragraphDesktop--font-weight:500;
+
+    --text-subtitleMobile:1.4375rem;
+    --text-subtitleMobile--line-height:1.2;
+    --text-subtitleMobile--letter-spacing:-0.6;
+    --text-subtitleMobile--font-weight:500;
+
+    --text-subtitleDesktop:2rem;
+    --text-subtitleDesktop--line-height:1.2;
+    --text-subtitleDesktop--letter-spacing:0;
+    --text-subtitleDesktop--font-weight:600;
+
+    --text-titleMobile:1.8125rem;
+    --text-titleMobile--line-height:1.3;
+    --text-titleMobile--letter-spacing:0;
+    --text-titleMobile--font-weight:500;
+
+    --text-titleDesktop:2.5rem;
+    --text-titleDesktop--line-height:1.1;
+    --text-titleDesktop--letter-spacing:0;
+    --text-titleDesktop--font-weight:700;
+
+    --text-accordionMobile:1rem;
+    --text-accordionMobile--line-height:1.2;
+    --text-accordionMobile--letter-spacing:0;
+    --text-accordionMobile--font-weight:500;
+
+    --text-accordionDesktop:1.25rem;
+    --text-accordionDesktop--line-height:1.2;
+    --text-accordionDesktop--letter-spacing:0;
+    --text-accordionDesktop--font-weight:500;
+    /* COLORS */
+    --color-Blue600: hsl(231, 69%, 60%);
+    --color-Red400: hsl(0, 94%, 66%);
+
+    --color-Grey50: hsl(0, 0%, 97%);
+    --color-Blue950: hsl(229, 31%, 21%);
+
+    /* SCREEN SIZES */
+    
+    
+    --min-w-faqMobile:6.875rem;
+    --max-w-faqDesktop:32.5rem;
+
+    
+}
