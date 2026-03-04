@@ -28,7 +28,7 @@
 
     --text-joinedtextMobile:0.875rem;
     --text-joinedtextMobile--line-height:1.4;
-    --text-joinedtextMobile--letter-spacing:2.7;
+    --text-joinedtextMobile--letter-spacing:0.2rem  ;
     --text-joinedtextMobile--font-weight:400;
 
     --text-joinedtextDesktop:1.25rem;
@@ -37,7 +37,7 @@
     --text-joinedtextDesktop--font-weight:500;
 
 
-    --text-joinedTitleMobile:1.4375rem;
+    --text-joinedTitleMobile:1.56rem;
     --text-joinedTitleMobile--line-height:1.2;
     --text-joinedTitleMobile--letter-spacing:0.6;
     --text-joinedTitleMobile--font-weight:500;
@@ -59,8 +59,8 @@
 
     --text-menuMobile:1.25rem;
     --text-menuMobile--line-height:1.2;
-    --text-menuMobile--letter-spacing:0.6;
-    --text-menuMobile--font-weight:500;
+    --text-menuMobile--letter-spacing:0.2rem;
+    --text-menuMobile--font-weight:400;
 
     --text-menuDesktop:0.815rem;
     --text-menuDesktop--line-height:1.2;
