@@ -106,6 +106,16 @@
     --text-accordionDesktop--line-height:1.2;
     --text-accordionDesktop--letter-spacing:0;
     --text-accordionDesktop--font-weight:500;
+
+    --text-inputJoined:1rem;
+    --text-inputJoined--line-height:1.2;
+    --text-inputJoined--letter-spacing:0;
+    --text-inputJoined--font-weight:400;
+
+    --text-warning:0.8rem;
+
+    
+
     /* COLORS */
     --color-Blue600: hsl(231, 69%, 60%);
     --color-Red400: hsl(0, 94%, 66%);
