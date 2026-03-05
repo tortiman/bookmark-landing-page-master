@@ -9,6 +9,7 @@
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
     --color-red-500: oklch(63.7% 0.237 25.331);
+    --color-blue-200: oklch(88.2% 0.059 254.128);
     --color-blue-500: oklch(62.3% 0.214 259.815);
     --color-gray-50: oklch(98.5% 0.002 247.839);
     --color-gray-100: oklch(96.7% 0.003 264.542);
@@ -522,8 +523,15 @@
     border-bottom-style: var(--tw-border-style);
     border-bottom-width: 2px;
   }
+  .border-b-4 {
+    border-bottom-style: var(--tw-border-style);
+    border-bottom-width: 4px;
+  }
   .border-Grey50 {
     border-color: var(--color-Grey50);
+  }
+  .border-Red400 {
+    border-color: var(--color-Red400);
   }
   .border-gray-200 {
     border-color: var(--color-gray-200);
@@ -533,12 +541,6 @@
   }
   .border-white {
     border-color: var(--color-white);
-  }
-  .border-t-gray-50 {
-    border-top-color: var(--color-gray-50);
-  }
-  .border-t-gray-100 {
-    border-top-color: var(--color-gray-100);
   }
   .border-t-gray-200 {
     border-top-color: var(--color-gray-200);
@@ -569,9 +571,6 @@
   }
   .px-8 {
     padding-inline: calc(var(--spacing) * 8);
-  }
-  .py-3 {
-    padding-block: calc(var(--spacing) * 3);
   }
   .py-5 {
     padding-block: calc(var(--spacing) * 5);
@@ -831,13 +830,6 @@
       }
     }
   }
-  .hover\:pb-1\.5 {
-    &:hover {
-      @media (hover: hover) {
-        padding-bottom: calc(var(--spacing) * 1.5);
-      }
-    }
-  }
   .hover\:text-Blue600 {
     &:hover {
       @media (hover: hover) {
@@ -954,6 +946,11 @@
       flex-direction: row-reverse;
     }
   }
+  .md\:items-center {
+    @media (width >= 48rem) {
+      align-items: center;
+    }
+  }
   .md\:items-start {
     @media (width >= 48rem) {
       align-items: flex-start;
@@ -994,6 +991,17 @@
     @media (width >= 48rem) {
       border-bottom-style: var(--tw-border-style);
       border-bottom-width: 2px;
+    }
+  }
+  .md\:border-b-4 {
+    @media (width >= 48rem) {
+      border-bottom-style: var(--tw-border-style);
+      border-bottom-width: 4px;
+    }
+  }
+  .md\:border-blue-200 {
+    @media (width >= 48rem) {
+      border-color: var(--color-blue-200);
     }
   }
   .md\:border-gray-200 {
